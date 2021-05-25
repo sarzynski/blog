@@ -30,6 +30,7 @@ gem 'carrierwave', '~> 2.0'
 gem 'devise'
 gem 'mini_magick'
 gem 'pundit'
+gem 'simple_form'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
