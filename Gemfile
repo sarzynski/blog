@@ -32,6 +32,7 @@ gem 'mini_magick'
 gem 'pundit'
 gem 'simple_form'
 gem "factory_bot_rails"
+gem "haml-rails"
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false

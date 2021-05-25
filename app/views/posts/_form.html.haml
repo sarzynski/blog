@@ -1,0 +1,4 @@
+= simple_form_for @post do |f|
+  %p= f.input :content, label: 'Post content'
+  %p= f.input :image, label: 'Upload your image'
+  %p= f.button :submit
