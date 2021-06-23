@@ -6,8 +6,11 @@
 </p>
 
 <p>
-<%= image_tag(@post.image.thumb.url, alt: 'Image') if @post.image? %>
+  <div id="image_field"></div>
 </p>
 
+<% if @post.image? %>
+<%= link_to 'Show image', remote: true %> |
+<% end %>
 <%= link_to 'Edit', edit_post_path(@post) %> |
 <%= link_to 'Back', posts_path %>
